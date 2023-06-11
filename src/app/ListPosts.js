@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import useSWR from 'swr';
 import fetcher from '@/app/fetcher';
+import { Button } from 'antd';
 
 export default function ListPosts() {
   let [page, setPage] = useState(1);
@@ -42,6 +43,8 @@ export default function ListPosts() {
       >
         Next
       </button>
+
+      <Button type="primary">Button using antdesign</Button>
     </>
   );
 }
