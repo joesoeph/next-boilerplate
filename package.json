@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "format": "prettier --write .",
     "e2e": "start-server-and-test dev http://localhost:3000 \"cypress open --e2e\"",
     "e2e:headless": "start-server-and-test dev http://localhost:3000 \"cypress run --e2e\"",
     "component": "cypress open --component",
@@ -22,6 +23,8 @@
   },
   "devDependencies": {
     "cypress": "^12.14.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^2.8.8",
     "start-server-and-test": "^2.0.0"
   }
 }
