@@ -1,4 +1,4 @@
-import ListPosts from "./ListPosts";
+import ListPosts from "../../src/app/ListPosts";
 
 describe("ListPosts", () => {
   beforeEach(() => {
