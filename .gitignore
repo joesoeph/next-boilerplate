@@ -37,3 +37,8 @@ next-env.d.ts
 # cypress
 /cypress/screenshots
 /cypress/videos
+
+# local env files
+.env
+.env.development
+.env.production
